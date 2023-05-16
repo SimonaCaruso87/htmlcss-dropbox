@@ -19,7 +19,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+ 
+button{
+    background-color: #0064FF;
+    color: white;
+    height: 30px;
+    width: 50px;
+}
 /*
      DEBUG
 */
@@ -27,21 +33,37 @@ body{
 .debug{
      border:2px dashed black;
 }
+
+/* .debug header{
+    border: 2px dashed lightcoral;
+    background-color: white;
+} */
+
 /* 
   HEADER
 */
-.header-nav{
+.header-nav {
     height: 60px;
+    line-height: 20px;
+}
+header img{
+width: 100px;
+}
+header span {
+    padding: 20px;
 }
  
-
 /*
    HEADER NAV
 */
 
-.header-nav .logo{
-    padding: 20%;
+.header-nav .nav{
+    padding:18px;
 }
+ .supporto{
+    padding-left: 700px;
+ }
+
 
 
 
