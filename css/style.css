@@ -10,6 +10,7 @@
 .container{
     max-width: 1200px;
     margin:0 auto;
+    border:none;
 }
 
 /*
@@ -34,6 +35,13 @@ button{
      border:2px dashed black;
 }
 
+a{
+    text-decoration: none;
+    color: #808080;
+
+}
+
+
 /* .debug header{
     border: 2px dashed lightcoral;
     background-color: white;
@@ -42,34 +50,64 @@ button{
 /* 
   HEADER
 */
-.header-nav {
-    height: 60px;
-    line-height: 20px;
+
+.navbar{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
-header img{
-width: 100px;
-}
-header span {
-    padding: 20px;
-}
- 
+
 /*
    HEADER NAV
 */
 
-.header-nav .nav{
-    padding:18px;
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 10px;
 }
- .supporto{
-    padding-left: 700px;
- }
 
+.menu
 
+.menu , .menu-right{
+    list-style-type: none;
+}
+
+.menu li , .menu-right li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li a , .menu.right li a {
+    transition: all 1s ease;
+}
+
+.menu a:hover , .menu-right a:hover{
+    color: #0064FF;
+}
 
 
 /*
    HEADER BUTTON
 */
 
+.header-button{
+    background-color: #B4D0E7;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+header .container-h1{
+    width: 1200px;
+    height: 200px;
+}
 
+header .header-button h1{
+    font-size: 80px;
+}
