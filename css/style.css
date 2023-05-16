@@ -17,7 +17,7 @@
 */
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -27,3 +27,27 @@ body{
 .debug{
      border:2px dashed black;
 }
+/* 
+  HEADER
+*/
+.header-nav{
+    height: 60px;
+}
+ 
+
+/*
+   HEADER NAV
+*/
+
+.header-nav .logo{
+    padding: 20%;
+}
+
+
+
+/*
+   HEADER BUTTON
+*/
+
+
+
