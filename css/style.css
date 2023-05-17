@@ -175,6 +175,10 @@ input .checked{
     background-color: #0064FF;
 }
 
+/*   
+   MAIN WRAPPER 3
+*/
+
 .main-wrapper3{
     max-width: 1000px;
     margin: 0 auto;
@@ -188,7 +192,7 @@ input .checked{
 }
 
 
-.card1, .card2, .card3{
+.card1, .card2, .card3 , .card5 , .card6{
     width:calc((100% / 3) - 40px);
     border:1px solid grey;
     padding: 10px 0px;
@@ -196,7 +200,7 @@ input .checked{
     font-size: small;
 }
 
-.professional{
+.main-wrapper3 .professional{
     height: 800px;
     display: flex;
     text-align: left;
@@ -235,3 +239,48 @@ input .checked{
     border-color: rgb(197, 197, 197);
     margin: 40px 0px;
 }
+
+/*
+   MAIN WRAPPER4
+*/
+
+.main-wrapper4 .card5{
+    height: 50px;
+    width: 100%;
+    border:1px solid grey;
+    margin-top: 40px;
+}
+
+.main-wrapper4 .professional .card6{
+    height: 200px;
+    border:1px solid grey;
+    width: 100%;
+    
+    
+}
+
+.main-wrapper4 .professional{
+    display: flex;
+    text-align: left;
+    margin-top: 0px;
+    position: relative;
+}
+
+.main-wrapper4 h2 , h4{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;;
+}
+
+.card6 button{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.card6 div{
+    padding-top:20px;
+    padding-left: 20px;
+}
+
