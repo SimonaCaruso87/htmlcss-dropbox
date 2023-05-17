@@ -118,14 +118,17 @@ header img{
 
 
 .main-wrapper1 h1{
-    font-size: 70px;
-    text-align: center;
+    font-size: 60px;
+    text-align: left;
 }
 
-.card1{
-    width: 100%;
+.card2-1 {
+    width: 30%;
 }
 
-.card2{
-    
+
+
+.card2-2{
+    width: 70%;
 }
+   
