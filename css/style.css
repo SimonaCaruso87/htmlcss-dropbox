@@ -103,22 +103,29 @@ header img{
    HEADER MAIN
 */
 
-.header-button{
+.header-main{
     background-color: #B4D0E7;
-    width: 100%;
-    height: 400px;
+}
+.main-wrapper1{
+    max-width: 1000px;
+    width: calc(100% / 3);
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 20px;
 }
 
-header .container-h1{
-    width: 1200px;
-    height: 200px;
+
+.main-wrapper1 h1{
+    font-size: 70px;
+    text-align: center;
 }
 
-header .header-button h1{
-    font-size: 70px;
+.card1{
+    width: 100%;
+}
+
+.card2{
+    
 }
