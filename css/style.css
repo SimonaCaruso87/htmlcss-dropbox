@@ -73,8 +73,13 @@ header.navbar{
     align-items: center;
     padding:20px 10px;
 }
-
-.menu
+header .menu{
+    display: flex;
+    justify-content: flex-start;
+}
+header img{
+    padding: 20px;
+}
 
 .menu , .menu-right{
     list-style-type: none;
@@ -85,7 +90,7 @@ header.navbar{
     padding: 20px;
 }
 
-.menu li a , .menu.right li a {
+.menu li a , .menu.right li a:not(img){
     transition: all 1s ease;
 }
 
@@ -95,7 +100,7 @@ header.navbar{
 
 
 /*
-   HEADER BUTTON
+   HEADER MAIN
 */
 
 .header-button{
