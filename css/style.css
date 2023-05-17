@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }    
 
+hr{
+    width: 50px;
+    border-color: #0064FF;
+}
 .container{
     max-width: 1200px;
     margin:0 auto;
@@ -51,7 +55,7 @@ a{
   HEADER
 */
 
-.navbar{
+header.navbar{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -97,10 +101,12 @@ a{
 .header-button{
     background-color: #B4D0E7;
     width: 100%;
-    height: 200px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 header .container-h1{
@@ -109,5 +115,5 @@ header .container-h1{
 }
 
 header .header-button h1{
-    font-size: 80px;
+    font-size: 70px;
 }
