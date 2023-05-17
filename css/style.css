@@ -55,10 +55,17 @@ a{
   HEADER
 */
 
-header.navbar{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+/*NON RIESCO A FARLO FUNZIONARE DOMANI
+DOMANDARE AI PROF 
+position: -webkit-sticky;
+position: sticky; */
+
+header .navbar{
+   
+    width: 100%;
+    padding: 30px;
     top: 0;
+    background-color: white;
 }
 
 /*
@@ -100,7 +107,7 @@ header img:not(.jumbo-screen){
 
 
 /*
-   HEADER MAIN
+   HEADER MAIN WRAPPER 1
 */
 
 .header-main{
@@ -110,8 +117,6 @@ header img:not(.jumbo-screen){
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 20px;
     position: relative;
     top: 60px;
 }
@@ -137,8 +142,67 @@ header .card-2{
 .header-main button{
      width: 200px;
      height: 40px;
+     margin:30px 0px;
 }
 
-/* .card-2-item1  p , button , div , i {
-    padding-bottom: 20px;
-} */
+/*
+    MAIN WRAPPER 2
+*/
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+    padding:40px 170px;
+}
+
+.main-wrapper2 h2{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.input-fatturazione{
+    padding: 50px;
+}
+
+label{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+input .checked{
+    background-color: #0064FF;
+}
+
+.main-wrapper3{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+
+}
+
+
+.card1, .card2, .card3{
+    width:calc((100% / 3) - 40px);
+    border:1px solid grey;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    font-size: small;
+}
+
+.professional{
+    height: 200px;
+    display: flex;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.main-wrapper3 .card1 , .card2 , .card3{
+    padding: 15px;
+}
