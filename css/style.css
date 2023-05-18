@@ -405,3 +405,23 @@ input .checked{
 .main-wrapper8 .differenze{
     padding: 20px 30px 30px 30px;
 }
+
+/*
+    FOOTER
+*/
+
+.container-footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.title-footer{
+    padding:20px 0px;
+}
+.container-footer ul{
+    list-style-type: none;
+}
+.item-title-footer{
+    font-size: small;
+    padding: 5px 0px;
+}
