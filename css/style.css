@@ -16,6 +16,11 @@ hr{
     margin:0 auto;
     border:none;
 }
+.container-small{
+    max-width: 1000px;
+    margin:0 auto;
+    border:none;
+}
 
 /*
     GENERAL
@@ -111,9 +116,6 @@ header img:not(.jumbo-screen){
     background-color: #B4D0E7;
 }
 .main-wrapper1{
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
     position: relative;
     top: 60px;
 }
@@ -154,11 +156,8 @@ header .card-2{
 */
 
 main{
-    max-width: 1000px;
-    margin: 0 auto;
     width: 100%;
     padding-top: 40px;
-    padding:40px 170px;
 }
 
 .main-wrapper2 h2{
@@ -183,11 +182,6 @@ input .checked{
    MAIN WRAPPER 3
 */
 
-.main-wrapper3{
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
-}
 
 .info{
     display: flex;
@@ -195,6 +189,9 @@ input .checked{
 
 }
 
+.main-wrapper3 .card1 i , .card2 i , .card3 i {
+    margin-right: 5px;
+}
 
 .card1, .card2, .card3 , .card5 , .card6{
     width:calc((100% / 3) - 40px);
@@ -270,7 +267,7 @@ input .checked{
     position: relative;
 }
 
-.main-wrapper4 h2 , h4{
+.main-wrapper4 h2 , .main-wrapper4 h4{
     display: flex;
     padding-left: 20px;
     margin-top: 20px;;
@@ -289,8 +286,6 @@ input .checked{
 }
 
 .main-wrapper5{
-    max-width: 1000px;
-    margin: 0 auto;
     width: 100%;
 }
 /*
@@ -301,6 +296,8 @@ input .checked{
     display: flex;
     flex-direction: row-reverse;
     padding-top: 30px;
+    width: 960px;
+
     
 }   
 
@@ -330,7 +327,7 @@ input .checked{
     width: 100%;
 }
 
-.main-wrapper5 .card-2-item1 h3{
+.main-wrapper5 .card-2-item1 h2{
     margin: 30px 0px;
     text-align: left;
 
@@ -340,40 +337,61 @@ input .checked{
     margin:20px;
 }
 
+/*
+  MAIN WRAPPER 6
+*/
+
+.main-wrapper6 h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
 /* 
   MAIN WRAPPER 7
 */
 
 .main-wrapper7 a{
-    color:#0064FF;
     text-decoration: underline;
     font-size: small;
 }
 
 .main-wrapper7{
     padding: 0px;
-    max-width: 1000px;
     margin:40px 20px;
 }
 
 .main-wrapper7 h2{
     padding-bottom: 30px;
-    
 }
+
+
 
 /*
     MAIN TRIAL-DROPBOX
 */
-
 .trial-dropbox{
-    background-color: #B4D0E7;
-    height: 200px;
     width: 100%;
-    position: relative;
+    height: 300px;
+    background-color:#B4D0E7;
 }
+
+.container-trialdropbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-trialdropbox{
+    padding:90px;
+}
+
+.container-trialdropbox .row-1{
+    margin-right: 100px;
+}
+
 .container-trialdropbox h2{
     color: #61082B;
-    padding: 30px;
+    padding-top: 30px;
     font-size:xx-large;
 }
 
@@ -384,9 +402,6 @@ input .checked{
     margin:30px 0px;
     color: grey;
     background-color: white;
-    position: absolute;
-    top:1px;
-    right: 40px;  
 }
 /*
        MAIN WRAPPER 8
@@ -394,7 +409,7 @@ input .checked{
 
 .main-wrapper8 h2 {
     margin-top: 100px;
-    padding: 30px;
+    padding: 30px 30px 30px 0px;
     font-size: 32px;
 }
 .main-wrapper8 hr{
@@ -405,9 +420,10 @@ input .checked{
 
 .main-wrapper8 h5{
     padding: 30px 0px;
+    font-size: 12px;
 }
 .main-wrapper8 .differenze{
-    padding: 20px 30px 30px 30px;
+    padding: 20px 30px 100px 0px;
 }
 
 /*
@@ -415,15 +431,18 @@ input .checked{
 */
 
 .container-footer{
-    max-width: 1000px;
-    margin: 0 auto;
     width: 100%;
+    background-color: black;
+    color: white;
+    padding: 80px 250px;
+    display: flex;
 }
 .title-footer{
     padding:20px 0px;
 }
 .container-footer ul{
     list-style-type: none;
+    margin-left: 0px;
 }
 .item-title-footer{
     font-size: small;
