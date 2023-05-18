@@ -362,7 +362,7 @@ input .checked{
 */
 
 .trial-dropbox{
-    background-color: #0064FF;
+    background-color: #B4D0E7;
     height: 200px;
     width: 100%;
     position: relative;
@@ -374,13 +374,34 @@ input .checked{
 }
 
 .container-trialdropbox button{
-    width: 200px;
+    width: 250px;
     height: 40px;
+    border: none;
     margin:30px 0px;
     color: grey;
     background-color: white;
     position: absolute;
     top:1px;
-    right: 40px;
-    
+    right: 40px;  
+}
+/*
+       MAIN WRAPPER 8
+*/
+
+.main-wrapper8 h2 {
+    margin-top: 100px;
+    padding: 30px;
+    font-size: 32px;
+}
+.main-wrapper8 hr{
+    width: 820px;
+    border-color: rgb(207, 207, 207);
+    margin-left: 0px;
+}
+
+.main-wrapper8 h5{
+    padding: 30px 0px;
+}
+.main-wrapper8 .differenze{
+    padding: 20px 30px 30px 30px;
 }
