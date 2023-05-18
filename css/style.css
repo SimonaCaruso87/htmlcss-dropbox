@@ -55,17 +55,14 @@ a{
   HEADER
 */
 
-/*NON RIESCO A FARLO FUNZIONARE DOMANI
-DOMANDARE AI PROF 
-position: -webkit-sticky;
-position: sticky; */
-
 header .navbar{
    
     width: 100%;
     padding: 30px;
-    top: 0;
     background-color: white;
+    position:sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /*
@@ -125,6 +122,9 @@ header img:not(.jumbo-screen){
     font-size: 60px;
     text-align: left;
 }
+.card-2-item1 > p {
+    font-size: 13px;
+}
 
 header .card-2{
     display: flex;
@@ -132,17 +132,21 @@ header .card-2{
     
 }   
 
-.card-2-item1{
+.header-main .card-2-item1{
     width: 30%;
 }
 
-.card-2-item2{
+.header-main .card-2-item2{
     width:70%;
 }
 .header-main button{
      width: 200px;
      height: 40px;
      margin:30px 0px;
+}
+
+.card-2-item1  div{
+    margin-bottom: 45px;
 }
 
 /*
@@ -318,7 +322,7 @@ input .checked{
      
 }
 
-.card-2-item1 div{
+.main-wrapper5 .card-2-item1 div{
     font-size: 12px;
 }
 
@@ -326,13 +330,13 @@ input .checked{
     width: 100%;
 }
 
-.card-2-item1 h3{
+.main-wrapper5 .card-2-item1 h3{
     margin: 30px 0px;
     text-align: left;
 
 }
 
-.card-2-item1{
+.main-wrapper5 .card-2-item1{
     margin:20px;
 }
 
