@@ -224,6 +224,12 @@ input .checked{
     color:grey
 }
 
+.d-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card1 button , .card2 button , .card3 button{
     width: 200px;
     height: 40px;
